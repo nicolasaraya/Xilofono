@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Xilophone</string>
+    <string name="autor">by Nicolas Araya</string>
+    <string name="continuar">Continuar</string>
+    <string name="ingreso">"Ingrese su nombre</string>
+    <string name="descripcionXilofono">Xilofono</string>
+
+</resources>

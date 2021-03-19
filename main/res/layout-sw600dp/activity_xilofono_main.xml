@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context=".XilofonoMain">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/texto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/descripcionXilofono"
+        app:srcCompat="@drawable/fondo" />
+
+    <LinearLayout
+        android:id="@+id/botonera"
+        android:layout_width="606dp"
+        android:layout_height="240dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonRosado"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#E91E63"
+            android:onClick="sonido"
+            android:text="Do" />
+
+        <Button
+            android:id="@+id/buttonMorado"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#673AB7"
+            android:onClick="sonido"
+            android:text="Re" />
+
+        <Button
+            android:id="@+id/buttonAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:onClick="sonido"
+            android:text="Mi" />
+
+        <Button
+            android:id="@+id/buttonCeleste"
+            android:layout_width="wrap_content"
+            android:layout_height="155dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:onClick="sonido"
+            android:text="Fa" />
+
+        <Button
+            android:id="@+id/buttonVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:onClick="sonido"
+            android:text="Sol" />
+
+        <Button
+            android:id="@+id/buttonAmarillo"
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#FFEB3B"
+            android:onClick="sonido"
+            android:text="La" />
+
+        <Button
+            android:id="@+id/buttonNaranja"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#FF5722"
+            android:onClick="sonido"
+            android:text="Si" />
+
+        <Button
+            android:id="@+id/buttonRojo"
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:backgroundTint="#D30B0B"
+            android:onClick="sonido"
+            android:text="Do'" />
+    </LinearLayout>
+
+</RelativeLayout>
